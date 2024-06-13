@@ -1,0 +1,31 @@
+.Modal {
+    font-family: sans-serif;
+    background-color: #e3ecff;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px black;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    padding: 5px;
+    position: absolute;
+    margin-top: 100px;
+    z-index: 4;
+  }
+  
+  .Header {
+    font-weight: bold;
+    
+  }
+
+  .Body { 
+    display: flex;
+    flex-direction: column;
+    width: 100%
+  }
+  
+  .Footer {
+    display: flex;
+    gap: 10px;
+  }

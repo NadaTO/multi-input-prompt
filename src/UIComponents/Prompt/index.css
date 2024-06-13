@@ -1,0 +1,10 @@
+.Field {
+    padding : 5px;
+    display: flex;
+
+}
+
+.Title { 
+    width: 100px;
+    padding-right: 3px ;
+}
