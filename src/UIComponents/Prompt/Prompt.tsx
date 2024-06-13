@@ -5,7 +5,7 @@ import './index.css'
 
 export const Prompt = () => {
   const { isOpen, props, closePrompt} = usePrompt();
-  const {title, isInput, texts,inputsNumber, values} = props
+  const {title, texts,inputsNumber, values} = props
   const [localInputs, setLocalInputs] = useState<string[]>(Array(inputsNumber).fill(''));
 
   
@@ -29,7 +29,7 @@ export const Prompt = () => {
 
    <ModalPrompt.Header> {title}</ModalPrompt.Header>
    <ModalPrompt.Body> 
-    {isInput &&
+    {inputsNumber> 0 &&
           [...Array(inputsNumber)].map((input, index) => (
             <div className="Field">
             <div className="Title"> {texts[index]}</div>

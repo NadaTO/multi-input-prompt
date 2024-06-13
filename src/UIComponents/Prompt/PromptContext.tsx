@@ -5,7 +5,6 @@ export type PromptProps = {
   texts: string[];
   values: string[];
   inputsNumber: number;
-  isInput: boolean;
 };
 
 type PromptContextValue = {
@@ -20,7 +19,6 @@ const defaultValue: PromptContextValue = {
   props: {
     title: "",
     texts: [],
-    isInput: false,
     inputsNumber: 0,
     values: [],
   },

@@ -14,7 +14,6 @@ export const OneInput: React.FunctionComponent = () => {
         texts: [ "Input One"],
         values: [],
         inputsNumber: 1,
-        isInput: true,
       }); 
       console.log(input)
       return input;
